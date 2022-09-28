@@ -22,7 +22,7 @@ const PORT = 8000;
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
 
-const URL = process.env.MONGO_URL || `mongodb+srv://${username}:${password}@cluster0.kcp45ny.mongodb.net/?retryWrites=true&w=majority`;
+const URL = process.env.MONGO_URL || `mongodb+srv://${ashish}:${ashish}@cluster0.7yhkkdt.mongodb.net/?retryWrites=true&w=majority`;
 
 Connection(URL);
 
