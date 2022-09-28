@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', Router);
 
 app.get('/', (req, res) => {
-    res.send('hello world')
+    res.json(console.log('server start'))
   })
 
 const PORT = 8000;
