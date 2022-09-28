@@ -17,6 +17,9 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', Router);
 
+app.get('/', (req, res) => {
+    res.send('hello world')
+  })
 
 const PORT = 8000;
 const username = process.env.DB_USERNAME;
